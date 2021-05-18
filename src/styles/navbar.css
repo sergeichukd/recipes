@@ -1,61 +1,64 @@
 .navbar {
-    padding: 10px;
-    height: 60px;
-    background-color: #1976d2;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    display: block;
+  padding: 10px;
+  height: 60px;
+  background-color: #1976d2;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  display: block;
 }
 
-
 #personalization {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 #navbar-header {
-    margin-left: 20px;
+  margin-left: 20px;
+}
+
+#navbar-header a {
+  color: white;
 }
 
 #sign-in {
-    margin-right: 20px;
-    font-size: small;
-    display: inline;
+  margin-right: 20px;
+  font-size: small;
+  display: inline;
 }
 
 #sign-in button {
-    color: white;
-    background: none!important;
-    border: none;
-    padding: 0!important;
-    cursor: pointer;
+  color: white;
+  background: none !important;
+  border: none;
+  padding: 0 !important;
+  cursor: pointer;
 }
 
 #sign-in button:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 #log-in {
-    display: inline;
+  display: inline;
 }
 
-#log-in-button{
-    border: 1px solid white;
+#log-in-button {
+  border: 1px solid white;
 }
 
-#log-in-button .MuiButton-label{
-    color: white;
+#log-in-button .MuiButton-label {
+  color: white;
 }
 
 .navbar-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    min-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  min-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .navbar-container .MuiSvgIcon-root {
-    margin-right: 5px;
+  margin-right: 5px;
 }
